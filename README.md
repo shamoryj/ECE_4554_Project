@@ -1,11 +1,11 @@
-#Document Scanning with Image Preservation and OCR
+# Document Scanning with Image Preservation and OCR
 
 
-##Problem Statement
+## Problem Statement
 
 
-##Approach
+## Approach
 
 
-##Experiments and Results
+## Experiments and Results
 
