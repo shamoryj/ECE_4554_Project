@@ -1,10 +1,11 @@
-# ECE_4554_Project
+#Document Scanning with Image Preservation and OCR
 
 
-Problem Statement:
+##Problem Statement
 
 
-Approach:
+##Approach
 
-Experiments and Results:
+
+##Experiments and Results
 
