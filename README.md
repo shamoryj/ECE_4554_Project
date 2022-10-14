@@ -1,3 +1,4 @@
+# Document Scanning with Image Preservation and OCR
 ## Problem Statement
 The goal of this project is to create a document scanner that will scan a page that consists of text and images. The document scanner output will preserve the image and perform OCR. 
 
