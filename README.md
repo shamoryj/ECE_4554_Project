@@ -18,4 +18,5 @@ To test this project we can test a selection or combinations of different condit
 - low or high light conditions
 - proper document selection within a group pages
 - pixel warping
+
 We expect that some of the listed experiments above will lead to bad output that may not be readable for the user. This could result in offset angled documents or sections of the document being unreadable due to shadows or light conditions. Some uncertain outcomes may be what happens with pixel warping or busy background as if we have a solid image detection algorithm these experiments would still yield a successful output. 
