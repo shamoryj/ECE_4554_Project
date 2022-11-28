@@ -76,8 +76,7 @@ While coding the project the group did have some parameters that were used. Thes
 *Add images here*
 
 ### Failure with Image detection
-![Input Image](https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/input_bad_im_detect.png)
-![Output Image](https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/output_bad_im_detect.png)
+![Failure with Image detection](https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/bad_im_detect.png)
 
 ## Conclusion
 This report has shown how the group has created a successful document scanner program by giving an overview of the approach used, the experiments and verification steps, and showing off some successful examples. Although the project works for most of the test cases we used there are some areas for improvement. These areas of improvement consist of having more accurate homography, and removing errors when having a busy background. One way the group thought this could be done is using a machine learning algorithm to optimize the parameters used during edge detection. Overall the group feels that they have delivered a successful project that can take most documents and output a document that is similar to what you would expect from a document scanner application. 
