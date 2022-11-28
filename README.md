@@ -148,7 +148,7 @@ With this we can show how we verified the steps to get to a successful output.
 
 ### Testing different inputs
 
-#### Document with 4 pictures
+#### Document with Multiple Images
 
 With this input you can see how the program will at first detect too many points but our algorithm which is described
 above will first remove all lines that have an intersection then just take the four longest lines.
@@ -161,7 +161,7 @@ above will first remove all lines that have an intersection then just take the f
   <img src="Images/Verification/2/Four_Longest_Edges_text_gray_ims.png" width="49%" />
 </p>
 
-#### Landscape document with tables
+#### Landscape Document with Tables
 
 With this document we are testing a landscape portrait document with tables. We used this to test our program since we
 wanted to see what would happen with the line and corner detection. With this input we can see that each table was not
@@ -169,9 +169,15 @@ detected as lines and corners but there were some random corner points detected.
 algorithm was successfully able to get rid of the lines that have an intersection and just leave the document edge
 lines.
 
-*Add images here*
+<p float="left">
+  <img src="Images/Verification/3/Prominent_Edges_landscape_tables.png" width="49%" />
+  <img src="Images/Verification/3/Prominent_Selected_Corners_landscape_tables.png" width="49%" />
+  <img src="Images/Verification/3/Segments_Connecting_All_Corners_landscape_tables.png" width="49%" />
+  <img src="Images/Verification/3/Four_Longest_Edges_landscape_tables.png" width="49%" />  
+  <img src="Images/Verification/3/Unwarped_Image_landscape_tables.png" width="49%" />
+</p>
 
-#### Failure with background
+#### Failure with Background
 
 In this input there are two main failures, a point detected outside the image and the image detection messing up the
 final output. As you can see above the point detected in the logo on the table makes the final outline not be around the
