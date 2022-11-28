@@ -49,6 +49,54 @@ parser function not perfectly finding the image. For some reason it always seeme
 of the image was outside the region. We experimented with other line parser algorithms, but we were not able to get a
 perfect result.
 
+### Steps Visualization
+<details>
+<summary>Click To Expand</summary>
+
+<p float="left">
+  <img src="Images/Qualitative_Results/input_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/All_Edges_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Prominent_Edges_Mask_text_gray_ims.png" width="32%" />
+</p>
+
+<p float="left">
+  <img src="Images/All_Steps/Prominent_Edges_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/All_Corner_Clusters__Enlarged_for_Viewing_Purposes__text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Prominent_Corner_Clusters_Mask_text_gray_ims.png" width="32%" />
+</p>
+
+<p float="left">
+  <img src="Images/All_Steps/Prominent_Corner_Clusters__Enlarged_for_Viewing_Purposes__text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Prominent_Selected_Corners_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Segments_Connecting_All_Corners_text_gray_ims.png" width="32%" />
+</p>
+
+<p float="left">
+  <img src="Images/All_Steps/Detected_Intersections_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Intersecting_Edges_Removed_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Four_Longest_Edges_text_gray_ims.png" width="32%" />
+</p>
+
+<p float="left">
+  <img src="Images/All_Steps/Corresponding_Points_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Unwarped_Image_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Detected_Regions_text_gray_ims.png" width="32%" />
+</p>
+
+<p float="left">
+  <img src="Images/All_Steps/Images_Mask_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Document_Images_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Non-Images_Mask_text_gray_ims.png" width="32%" />
+</p>
+
+<p float="left">
+  <img src="Images/All_Steps/Document_Non-Images_text_gray_ims.png" width="32%" />
+  <img src="Images/All_Steps/Black___White_Document_Non-Images_text_gray_ims.png" width="32%" />
+  <img src="Images/Qualitative_Results/output_text_gray_ims.png" width="32%" />
+</p>
+
+</details>
+
 ## Experiments and Results
 
 To verify that the program was working correctly the group used a couple of test documents with different backgrounds
