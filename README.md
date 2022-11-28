@@ -185,7 +185,12 @@ image but connect to the logo. This will cause the homography to be less than pe
 detection. Since the entire document is an image the image detection does not work as intended, and thus leads to a poor
 result.
 
-*Add images here*
+<p float="left">
+  <img src="Images/Verification/4/Prominent_Selected_Corners_bad_corner_detect.png" width="49%" />
+  <img src="Images/Verification/4/Intersecting_Edges_Removed_bad_corner_detect.png" width="49%" />
+  <img src="Images/Verification/4/Detected_Regions_bad_corner_detect.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_bad_corner_detect.png" width="49%" />
+</p>
 
 ### Parameters
 
