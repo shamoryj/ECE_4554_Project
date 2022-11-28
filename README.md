@@ -130,8 +130,8 @@ example code and tuned it slightly to work best for our project.
 ### Document with Table
 
 <p float="left">
-  <img src="/Images/Qualitative_Results/input_landscape_tables.png" width="50%" />
-  <img src="/Images/Qualitative_Results/output_landscape_tables.png" width="50%" />
+  <img src="/Images/Qualitative_Results/input_landscape_tables.png" width="30%" />
+  <img src="/Images/Qualitative_Results/output_landscape_tables.png" width="30%" />
 </p>
 
 ### Failure with Corner Detection
@@ -141,8 +141,8 @@ example code and tuned it slightly to work best for our project.
 ### Failure with Image Detection
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/Images/Qualitative_Results/input_landscape_tables.png" width="50%" />
-  <img src="https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/Images/Qualitative_Results/output_landscape_tables.png" width="50%" />
+  <img src="https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/Images/Qualitative_Results/input_landscape_tables.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/Images/Qualitative_Results/output_landscape_tables.png" width="30%" />
 </p>
 
 ## Conclusion
