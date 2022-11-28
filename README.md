@@ -50,6 +50,7 @@ of the image was outside the region. We experimented with other line parser algo
 perfect result.
 
 ### Steps Visualization
+
 <details>
 <summary>Click To Expand</summary>
 
@@ -110,23 +111,38 @@ tables. We also changed the way the images were taken and which way the document
 Since this was a visual project the verification was done by seeing how the output looks. We displayed the edge lines as
 well as the corners detected on the image to show that the first steps are working.
 
-*Add images here*
+<p float="left">
+  <img src="Images/Qualitative_Results/input_text_color_im.png" width="49%" />
+  <img src="Images/Verification/1/Prominent_Edges_text_color_im.png" width="49%" />
+  <img src="Images/Verification/1/Prominent_Selected_Corners_text_color_im.png" width="49%" />
+  <img src="Images/Verification/1/Four_Longest_Edges_text_color_im.png" width="49%" />
+</p>
 
 Then we displayed the homography input and output points.
 
-*Add images here*
+<p float="left">
+  <img src="Images/Verification/1/Corresponding_Points_text_color_im.png" width="49%" />
+  <img src="Images/Verification/1/Unwarped_Image_Prominent_Edges_text_color_im.png" width="49%" />
+</p>
 
 After the document was the main focus we ran the image parser which will outline the image as well as the text blocks.
 
-*Add images here*
+<p float="left">
+  <img src="Images/Verification/1/Detected_Regions_text_color_im.png" width="49%" />
+</p>
 
 After we found the image we showed that the program can pull out the image and make the text black and white.
 
-*Add images here*
+<p float="left">
+  <img src="Images/Verification/1/Document_Images_text_color_im.png" width="49%" />
+  <img src="Images/Verification/1/Black___White_Document_Non-Images_text_color_im.png" width="49%" />
+</p>
 
 Then finally we display the last output with the image and the text combined.
 
-*Add images here*
+<p float="left">
+  <img src="Images/Qualitative_Results/output_text_color_im.png" width="49%" />
+</p>
 
 With this we can show how we verified the steps to get to a successful output.
 
