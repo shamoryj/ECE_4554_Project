@@ -153,7 +153,13 @@ With this we can show how we verified the steps to get to a successful output.
 With this input you can see how the program will at first detect too many points but our algorithm which is described
 above will first remove all lines that have an intersection then just take the four longest lines.
 
-*Add images here*
+<p float="left">
+  <img src="Images/Verification/2/Prominent_Selected_Corners_text_gray_ims.png" width="49%" />
+  <img src="Images/Verification/2/Segments_Connecting_All_Corners_text_gray_ims.png" width="49%" />
+  <img src="Images/Verification/2/Detected_Intersections_text_gray_ims.png" width="49%" />
+  <img src="Images/Verification/2/Intersecting_Edges_Removed_text_gray_ims.png" width="49%" />
+  <img src="Images/Verification/2/Four_Longest_Edges_text_gray_ims.png" width="49%" />
+</p>
 
 #### Landscape document with tables
 
