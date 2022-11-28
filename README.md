@@ -10,11 +10,14 @@ like a document scanner phone application.
 
 ## Teaser Image
 
-*Add images here*
+<p float="left">
+  <img src="Images/Qualitative_Results/input_text_color_im.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_text_color_im.png" width="49%" />
+</p>
 
 ## Introduction
 
-The motivation behind this project was to be able to scan a document that wasn’t aligned with the corners of the image
+The motivation behind this project was to be able to scan a document that was not aligned with the corners of the image
 and return an image that would now “fit” the image. The program would also be able to detect images to preserve the
 color as the rest of the document would be set to black and white to improve the text readability. The application of
 this program would be scanning and uploading physically received documents that have black text and images that are
@@ -31,7 +34,7 @@ four corners. To do this the group used the Canny edge detection for edges and t
 from OpenCV. Once the edges and lines were found we then applied a homography of the detected document into a new image
 which would result in the document filling the output image. Once the document filled the entire space the group used
 the layout parser functions to detect the regions where images were present. The layout parser function using one of the
-built in algorithms as a parameter was able to detect images with over an 80 percent confidence and return the rough
+built-in algorithms as a parameter was able to detect images with over an 80 percent confidence and return the rough
 location of where the image was. With the locations of the images we could make sure they would not be affected when
 setting the rest of the document to black and white. The last step was to combine the document with the preserved images
 and the black and white text and return it as the output.
@@ -41,9 +44,9 @@ would return every edge and every corner. In order to solve this problem we sele
 returned by drawing lines between each corner and removing all lines that intersect with another line. This works for
 most cases but will fail if there is an image or line in the document that is longer than one of the edges. Another
 issue was that the homography was not perfect and would have slight gaps on the edges. We were not able to get this to
-work perfectly but we tried our best to get it as close as possible. The last issue the group faced was with the layout
+work perfectly, but we tried our best to get it as close as possible. The last issue the group faced was with the layout
 parser function not perfectly finding the image. For some reason it always seemed to be slightly shifted over where part
-of the image was outside the region. We experimented with other line parser algorithms but we were not able to get a
+of the image was outside the region. We experimented with other line parser algorithms, but we were not able to get a
 perfect result.
 
 ## Experiments and Results
@@ -93,7 +96,8 @@ above will first remove all lines that have an intersection then just take the f
 With this document we are testing a landscape portrait document with tables. We used this to test our program since we
 wanted to see what would happen with the line and corner detection. With this input we can see that each table was not
 detected as lines and corners but there were some random corner points detected. You can see like the example above the
-algorithm was successfully able to get rid of the lines that have an intersection and just leave the border lines.
+algorithm was successfully able to get rid of the lines that have an intersection and just leave the document edge
+lines.
 
 *Add images here*
 
@@ -115,34 +119,60 @@ example code and tuned it slightly to work best for our project.
 
 ## Qualitative Results
 
-### Document with just text
+### Document with Just Text
 
-*Add images here*
+<p float="left">
+  <img src="Images/Qualitative_Results/input_text_doc.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_text_doc.png" width="49%" />
+</p>
 
-### Document with 4 images
+### Document with Color Image
 
-*Add images here*
+<p float="left">
+  <img src="Images/Qualitative_Results/input_text_color_im.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_text_color_im.png" width="49%" />
+</p>
 
-### Document with color image
+### Document with Multiple Gray Images
 
-*Add images here*
+<p float="left">
+  <img src="Images/Qualitative_Results/input_text_gray_ims.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_text_gray_ims.png" width="49%" />
+</p>
+
+### Document with Multiple Color Images
+
+<p float="left">
+  <img src="Images/Qualitative_Results/input_color_ims.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_color_ims.png" width="49%" />
+</p>
 
 ### Document with Table
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/Images/Qualitative_Results/input_landscape_tables.png" width="49%" />
-  <img src="https://raw.githubusercontent.com/shamoryj/ECE_4554_Project/main/Images/Qualitative_Results/output_landscape_tables.png" width="49%" />
+  <img src="Images/Qualitative_Results/input_landscape_tables.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_landscape_tables.png" width="49%" />
 </p>
 
 ### Failure with Corner Detection
 
-
+<p float="left">
+  <img src="Images/Qualitative_Results/input_bad_corner_detect.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_bad_corner_detect.png" width="49%" />
+</p>
 
 ### Failure with Image Detection
 
 <p float="left">
-  <img src="Images/Qualitative_Results/input_landscape_tables.png" width="49%" />
-  <img src="Images/Qualitative_Results/output_landscape_tables.png" width="49%" />
+  <img src="Images/Qualitative_Results/input_bad_im_detect.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_bad_im_detect.png" width="49%" />
+</p>
+
+### Failure with Image Detection 2
+
+<p float="left">
+  <img src="Images/Qualitative_Results/input_bad_im_detect2.png" width="49%" />
+  <img src="Images/Qualitative_Results/output_bad_im_detect2.png" width="49%" />
 </p>
 
 ## Conclusion
